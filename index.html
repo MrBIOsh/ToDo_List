@@ -31,14 +31,14 @@
         <div class="todo">
             <h2 class="todo__title">ToDo List</h2>
           <div class="todo__input">
-            <input class="todo__text" type="text">
+            <input class="todo__text" id="taskInput" type="text">
             <span class="todo__add"></span>
           </div>
-          <select class="todo__options">
+          <select class="todo__options" id="todo__filter">
             <option value="active">активные</option>
             <option value="completed">завершённые</option>
           </select>
-          <ul class="todo__items" data-todo-option="active"></ul>
+          <ul class="todo__items" id="todo__list" data-todo-option="active"></ul>
         </div>
       
       </body>
